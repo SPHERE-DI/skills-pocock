@@ -51,7 +51,7 @@ skill.
 
 ### L'axe qui structure tout: qui peut invoquer
 
-Voir [`.agents/invocation.md`](../invocation.md). Chaque skill est soit:
+Voir [`.agents/invocation.md`](../../.agents/invocation.md). Chaque skill est soit:
 
 - **user-invoked**: seul l'humain le déclenche en tapant son nom
   (`disable-model-invocation: true` côté Claude Code,
@@ -99,7 +99,7 @@ Sandcastle devient utile.
 ### Distribution
 
 Deux entrées, deux philosophies (voir
-[`.agents/adr/0002-ship-as-a-claude-code-plugin.md`](../adr/0002-ship-as-a-claude-code-plugin.md)):
+[`.agents/adr/0002-ship-as-a-claude-code-plugin.md`](../../.agents/adr/0002-ship-as-a-claude-code-plugin.md)):
 le plugin Claude Code (`claude plugins install mattpocock-skills`), bundle en
 lecture seule qui se met à jour tout seul, ou `npx skills@latest add
 mattpocock/skills`, qui copie des fichiers éditables dans le projet. Installer
